@@ -9,6 +9,9 @@
 /test/version_tmp/
 /tmp/
 *.json
+.gitconfig
+.lesshst
+.viminfo
 
 ## Specific to RubyMotion:
 .dat*
