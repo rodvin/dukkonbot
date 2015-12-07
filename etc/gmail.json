@@ -1,8 +1,0 @@
-{
-"address" : "smtp.gmail.con",
-"port" : "587",
-"domain" : "dukkon.rodvin.ca",
-"user_name" : "\"YnLG\]i-I\{kDM\}i5C\'qmIC\=\^",
-"authentication" : "plain",
-"enable_starttls_auto" : "true" 
-}
