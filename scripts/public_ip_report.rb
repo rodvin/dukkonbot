@@ -26,7 +26,6 @@ ip = open('http://checkip.amazonaws.com').read
 ip = ip.chomp.strip
 if ip.to_s != lastip["public_ip"].to_s
   lastip["public_ip"] = ip.to_s
-  puts "New public_ip for dukkon is #{lastip["public_ip"]}"
   File.open("/opt/dukkonbot/etc/lastip.json", "w") do |f|
     f.write(lastip.to_json)
     f.close
